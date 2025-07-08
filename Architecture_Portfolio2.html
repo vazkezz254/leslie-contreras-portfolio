@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Leslie Lisuly Contreras Mendoza | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              accent: '#7B5E57', // Warm Taupe
+              background: '#ece8e1', // Rich light beige
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="bg-background text-gray-800 font-sans">
+
+    <!-- About Me Section -->
+    <section class="px-6 py-16 bg-[#f5f2ed]">
+      <div class="max-w-3xl mx-auto text-left">
+        <h1 class="text-xl font-bold text-accent mb-2">Leslie Lisuly Contreras Mendoza</h1>
+        <!-- <p class="text-lg text-gray-700 mb-4">Master’s Student in Architecture<br>The Prettiest Girl in the World<br>Texas A&M University</p> -->
+        <!-- <p class="text-gray-600">
+          <a href="mailto:lisulymendoza@gmail.com" class="text-accent hover:underline">lisulymendoza@gmail.com</a>
+          &nbsp;&nbsp;|&nbsp;&nbsp; 915-996-6999
+        </p> -->
+        <img src="images/heading.jpg"
+     class="w-full object-contain  mt-6 rounded-lg border-4 border-white shadow-xl" />
+
+      </div>
+    </section>
+
+    <!-- About me paragraph -->
+    <section class="px-6 py-16 bg-[#e7e3dd]">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-accent mb-4 text-center">About me</h2>
+        <p class="text-gray-700 mb-12 text-center max-w-2xl mx-auto">
+            I'm Leslie Lisuly Contreras Mendoza, a Master of Architecture student at Texas A&M University. My work explores the intersection of culture, community, and spatial experience. I'm passionate about designing spaces that are thoughtful, inclusive, and responsive to their environment. With each project, I aim to blend aesthetic clarity with purpose-driven function to create meaningful architectural solutions.
+        </p>
+        <!--Resume button-->
+        <a href="resume.pdf" download class="inline-block bg-accent text-white px-4 py-2 rounded hover:bg-accent/90 transition mb-8">
+            Download Resume
+          </a>
+          
+        <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Project Card Template -->
+          <a href="sugar_land2.html" class="block bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+            <img src="images/sugar_land_hospital.jpg" class="w-full h-56 object-contain" alt="Sugar Land Hospital" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-accent">Sugar Land Hospital</h3>
+              <p class="text-gray-700 text-sm">La mas bella.</p>
+            </div>
+          </a>
+          
+          <a href="tenth_street.html" class="block bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+            <img src="images/Tenth_street_typologies.jpg" class="w-full h-56 object-contain" alt="Sugar Land Hospital" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-accent">Tenth Street Typologies</h3>
+              <p class="text-gray-700 text-sm">Sexiest girl alive :).</p>
+            </div>
+          </a>
+
+          <a href="cultural_center.html" class="block bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+            <img src="images/cultural_center.jpg" class="w-full h-56 object-contain" alt="Sugar Land Hospital" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-accent">Cultural Center</h3>
+              <p class="text-gray-700 text-sm">Cutie pie.</p>
+            </div>
+          </a>
+
+          <a href="hejduk_design.html" class="block bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+            <img src="images/hejduk_loos_hybrid_design.jpg" class="w-full h-56 object-contain" alt="Sugar Land Hospital" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-accent">Hejduk & Loos Hybgrid design</h3>
+              <p class="text-gray-700 text-sm">hottie.</p>
+            </div>
+          </a>
+
+          <a href="cafe_langford.html" class="block bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+            <img src="images/cafe_at_langford.jpg" class="w-full h-56 object-contain" alt="Sugar Land Hospital" />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-accent">Cafe at Langford</h3>
+              <p class="text-gray-700 text-sm">piel de caramelo.</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+      <p class="text-center text-sm text-gray-500 mt-10">
+        © 2025 Leslie Lisuly Contreras Mendoza. All rights reserved.
+      </p>
+    </section>
+
+  </body>
+</html>
